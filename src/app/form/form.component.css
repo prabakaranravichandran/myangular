@@ -1,0 +1,25 @@
+#form {
+    position: relative;
+    margin: 50px 0;
+}
+.form-heading h2 {
+    text-align: center;
+    font-size: 25px;
+    margin: 0;
+}
+.form-heading {
+    padding: 0px 0px 40px;
+}
+.form-innerNew {
+    text-align: left;
+}
+.min-height
+{
+    min-height: 95px;
+}
+.form-heading h2{
+    color: #3399ff;
+    font-size: 24px;
+}
+.form-heading h2 span
+{    color: #f04943;}

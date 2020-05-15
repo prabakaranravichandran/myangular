@@ -1,0 +1,41 @@
+<section id="form">
+<section class="container">
+   <form [formGroup]="aboutForm" class="frmctnl" (ngSubmit) = "onSubmit()">
+       <section class="form-group">
+           <label>Name</label>
+           <input formControlName="Name"  name="Name" type="text" class="form-control" [ngClass]="{'is-invalid': submitted && getData.Name.errors}" />
+           <section *ngIf="submitted && getData.Name.errors" class="invalid-feedback">
+               <span *ngIf="getData.Name.errors.required">Name is Required</span>
+           </section>
+       </section>
+       <section class="form-group">
+           <label>Email</label>
+           <input formControlName="Email" name="Email" type="email" class="form-control" [ngClass]="{'is-invalid': submitted && getData.Email.errors}" />
+           <section *ngIf="submitted && getData.Email.errors" class="invalid-feedback">
+               <span *ngIf="getData.Email.errors.required">Email is Required</span>
+               <span *ngIf="getData.Email.errors.email">Email is invalid</span>
+           </section>
+       </section>
+       <section class="form-group">
+           <label>Password</label>
+           <input type="password" class="form-control" formControlName="Password"  name="Password"  [ngClass]="{'is-invalid': submitted && getData.Password.errors}" />
+           <section *ngIf="submitted && getData.Password.errors" class="invalid-feedback">
+               <span *ngIf="getData.Password.errors.required">Password is Required</span>
+               <span *ngIf="getData.Password.errors.minlength">Password should be minimum 8 characters</span>
+           </section>
+       </section>
+       <section class="form-group">
+           <label>Mobile Number</label>
+           <input type="number" minlength="10" formControlName="MobileNumber" name="MobileNumber" class="form-control"  [ngClass]="{'is-invalid': submitted && getData.MobileNumber.errors}" />
+           <section *ngIf="submitted && getData.MobileNumber.errors" class="invalid-feedback">
+               <span *ngIf="getData.MobileNumber.errors.required">MobileNumber is Required</span>
+               <span *ngIf="getData.MobileNumber.errors.pattern">MobileNumber should be 10 numbers</span>
+           </section>
+       </section>
+       <section class="form-group">
+           <button class="btn btn-primary">Submit</button>
+       </section>
+   </form>
+</section>
+</section>
+ 

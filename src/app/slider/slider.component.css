@@ -1,0 +1,2 @@
+.slide{width: 100%;margin: auto;position: relative;}
+.slider__title{position: absolute; bottom: 50%; left: 30px; padding: 15px; background: #fff; color: #000; font-size: 18px; line-height: 20px; transform: translateY(-50%);}

@@ -1,0 +1,11 @@
+<section id="highlight-zone">
+    <div class="container">
+        <div class="highlight-zone-in">
+            <h2>Highlights of<span> Smart Reading Zones</span></h2>
+            <div class="highlight-zone-text" *ngFor = "let heighlightsData of smartreadingimg">
+                <img src={{heighlightsData.img}} />
+                <p>{{heighlightsData.txt}}</p>
+            </div>
+        </div>
+    </div>
+</section>

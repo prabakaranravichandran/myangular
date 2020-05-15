@@ -1,0 +1,16 @@
+/* You can add global styles to this file, and also import other style files */
+ul{
+    list-style: none;
+}
+.slick-arrow{background: url('./assets/left-right-arrow.png'); outline:none; border: 0; text-indent: -9999px; background-repeat: no-repeat;height: 40px; width: 50px; background-size: contain;}
+.slick-arrow.slick-prev{background-position: -25px 0; position: absolute;z-index: 1;left:15px;top:50%;transform: translateY(-50%);}
+.slick-arrow.slick-next{background-position: 25px 0; position: absolute;z-index: 1;right:15px;top:50%;transform: translateY(-50%);}
+*{font-family: 'robotoblack';}
+@font-face {
+    font-family: 'robotoblack';
+    src: url('./assets/fonts/roboto-black-webfont.woff2') format('woff2'),
+         url('./assets/fonts/roboto-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}

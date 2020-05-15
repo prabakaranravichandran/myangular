@@ -1,0 +1,24 @@
+<section id="smartzone">
+    <div class="container">
+        <div class="smartzone-outer">
+            <div class="smartzone-heading">
+                <h2>Make your customers and guests indulge in unlimited reading
+                   <br> at <span>Smart Reading Zone</span></h2>
+                     
+            </div>
+            <div class="smartzone-subheading">
+                <h2>Popular places that can become Smart Reading Zones</h2>
+
+            </div>
+            <div class="reading-places" *ngFor="let image of highlightimg">
+                <ul>
+                    <li>
+                    <img src="{{image.img}}" alt="">
+                    <p>{{image.txt}}</p>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+</section>

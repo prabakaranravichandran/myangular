@@ -1,0 +1,6 @@
+header{height: 75px;
+    background: #f4f4f4;
+    line-height: 75px;
+    border-bottom: 1px solid #d6d2d2;}
+.header__list{display:flex;align-items: center;justify-content: space-between;}
+.headerFixed{position:fixed;top:0;left:0;right:0;z-index: 10;}

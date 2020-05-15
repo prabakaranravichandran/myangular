@@ -1,0 +1,22 @@
+footer
+{
+    background-color: #0a1c2e;
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+.footer-copyright
+{
+    text-align: center;
+   padding: 20px 0 20px 0;
+}
+.footer-copyright p span {
+    color: #d1caca;
+    
+}
+.footer-copyright a {
+    color: #f2ff49;
+    margin-left: 3px;
+    padding-right: 3px;
+}

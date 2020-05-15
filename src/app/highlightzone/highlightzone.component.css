@@ -1,0 +1,30 @@
+#highlight-zone
+{
+    background: url(/assets/srz-bg.jpg) no-repeat 0 0;
+    padding: 45px 0 45px;
+   
+}
+
+.highlight-zone-in h2{
+color: #3399ff;
+    font-size: 30px;
+    margin: 0;
+    padding: 0 0 25px;
+    position: relative;
+   text-align: center;
+}
+.highlight-zone-in h2 span
+{
+    color: #f04943;
+}
+.highlight-zone-text {
+    padding-top: 20px;
+}
+.highlight-zone-text{display:flex;align-items:center;}
+.highlight-zone-text p
+{text-align: left;color: #fff;font-size: 20px;padding: 0 0px 0 10px;margin: 0;}
+.highlight-zone-in {
+    display: table;
+    width: 65%;
+    margin: 0 auto;
+}
